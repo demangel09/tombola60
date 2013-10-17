@@ -1,0 +1,249 @@
+body {
+    color: #666666;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 12px;
+}
+
+.header {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #F0F0F0;
+    border-top: 5px solid #22AAEE;
+}
+
+.header .navbar {
+    margin-bottom: 0;
+}
+
+.header .navbar .navbar-inner {
+    background-color: #FFFFFF;
+    background-image: none;
+    border: medium none;
+    border-radius: 0 0 0 0;
+    box-shadow: none;
+    min-height: 80px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.header .navbar .navbar-inner .brand {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 0;
+    padding: 17px 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+.header .navbar .navbar-inner .brand img.logo{
+	width : 526px;
+	height: 57px;
+}
+
+.header .navbar .nav {
+    float: right;
+    margin-right: 0;
+}
+.header .navbar .nav > li > a {
+    display: block;
+    font-weight: bold;
+    padding: 30px 25px;
+    text-transform: uppercase;
+}
+
+.dataTables_length {
+    float: left;
+    text-align: center;
+    font-family: 'Open Sans',Verdana,Arial,Helvetica,sans-serif;
+    line-height: 12px;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.dataTables_filter {
+    float: right;
+    text-align: center;
+    font-family: 'Open Sans',Verdana,Arial,Helvetica,sans-serif;
+    line-height: 12px;
+    font-size: 10px;
+    padding: 10px;
+}
+.dataTables_filter input {
+    width:140px;
+    height: 15px;
+}
+.dataTables_info {
+    float: left;
+}
+.dataTables_length select {
+    width:60px;
+    height: 25px;
+}
+.dataTables_paginate {
+    float: right;
+    text-align: right;
+}
+.dataTables_wrapper {
+    clear: both;
+    padding: 10px 20px 20px;
+    position: relative;
+}
+.summary{
+	padding-top: 30px;
+	
+}
+.form-horizontal.sold{
+	 background-color: silver;
+    border: 5px ridge black;
+    padding: 48px;
+    width: 435px;
+	
+}
+.form-horizontal.generate{
+    background-color: lightgray;
+    border: 5px ridge black;
+    padding: 48px;
+    width: 435px;;
+}
+
+.form-horizontal.print{
+    background-color: lightgray;
+    border: 5px ridge black;
+    padding: 48px;
+    width: 435px;;
+	
+}
+.form-horizontal.verify{
+	 background-color: silver;
+    border: 5px ridge black;
+    padding: 48px;
+    width: 435px;
+    height: 294px;
+}
+
+.row-fluid_btn{
+    padding-bottom: 28px;
+    padding-left: 198px;
+    padding-top: 15px;
+    height: 12px;
+}
+.btn-large {
+    border-radius: 6px 6px 6px 6px;
+    font-size: 17.5px;
+    height: 43px;
+    padding: 11px 19px;
+    width: 152px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-left:22px
+}
+.title-bar{
+	 width: 100%;
+	 text-align: left;
+	 padding-bottom: 20px;
+	 padding-left: 20px;
+}
+span.title{
+	font-size: 16px;
+}
+.form-horizontal .controls {
+    margin-left: 202px;
+}
+.controls .input-mini {
+    border: 2px solid black;
+    font-size: 28px;
+    font-weight: bold;
+    height: 46px;
+    margin-left: 3px;
+    margin-right: 2px;
+    width: 34px;
+    text-align: left;
+    padding-left: 15px;
+    padding-bottom: 11px;
+    padding-top: 6px;
+}
+
+.span6.controls_sold.btn-success{
+margin-left: 177px;
+}
+
+.input-mini.winning-box{
+	height: 65px;
+	width: 55px;
+	font-size: 45px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.row-fluid .span1 {
+ margin: 0px !important;
+  padding: 0px !important;
+  height: 85px;
+  width: 82px;
+}
+.controls.boxlist.boxbg6{
+	padding-top: 31px;
+	background-image: url(/gameset/Box_of_6.png);
+	border : none;
+	height: 224px;
+	width: 129px;
+	background-repeat: no-repeat;
+	background-size: 131px 256px;
+}
+.controls.boxlist.boxbg9{
+    padding-top: 31px;    
+    background-image: url("/gameset/Box_of_9.png");
+    border: none;
+    height: 225px;
+    padding-top: 31px;
+    width: 193px;
+    background-repeat: no-repeat;
+	background-size: 193px 256px;
+}
+.controls.boxlist.boxbg12{
+	padding-top: 33px;
+	background-image: url(/gameset/Box_of_12.png);
+	border : 0px solid gray;
+	height: 226px;
+	width: 257px;
+	background-repeat: no-repeat;
+	background-size: 258px 259px;
+}
+.controls.boxlist.boxbg15{	
+	padding-top: 32px;
+	background-image: url(/gameset/Box_of_15.png);
+	border : 0px solid gray;
+	height: 226px;
+	width: 322px;
+	background-repeat: no-repeat;
+	background-size: 322px 259px;
+}
+.controls.boxlist.boxbg18{
+    padding-top: 32px;
+    background-image: url(/gameset/Box_of_18.png);
+    border : 2px solid gray;
+    height: 221px;
+    width: 386px;
+    background-repeat: no-repeat;
+    background-size: 386px 259px;
+}
+.button-login {
+    background: url("/stylesheets/images/login.png") no-repeat scroll 0 0 transparent;
+    border-radius: 16px 16px 16px 16px;
+    display: table-cell;
+    font-weight: bold;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    width: 106px;
+}
+.container {
+    position: relative;
+    padding: 20px;
+}
+
+.container .login-bg{
+    float: left;
+    margin: 0 450px;
+    position: fixed;
+}
+element.style{
+    border: 1px solid green
+}

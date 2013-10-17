@@ -1,0 +1,41 @@
+extends /views/layout/layout
+block content
+  .container-fluid
+    .row-fluid
+      .span12
+        .span6
+          .summary
+            form#form-submit.form-horizontal.print(method="POST",action="")
+              .title-bar
+                span.title Print Card
+              .control-group
+                label.control-label Production No.
+                .controls
+                  select.dropdown-toggle.input-medium(id="prod_id", name="prod_id", required="required")
+                    - var items = production
+                    each item in items
+                      option(value=item.prod_id)=item.prod_id
+              .control-group
+                .controls
+                  button#generate.btn.btn-success.input-medium(type="submit") Submit
+                  br
+                  br
+                  br
+              .control-group
+                label.control-label Print Masterlist
+                .controls
+                  button#masterlist.btn.btn-danger.input-medium(type="submit") Masterlist
+block page-scripts
+  script
+    $(document).ready(function(){
+      $('button').click(function(event){
+        var clickButton = event.target.id
+        if(clickButton == 'generate'){
+          alert('generate');
+          $('#form-submit').attr('action','/download');
+        }else{
+          alert('masterlist');
+          $('#form-submit').attr('action','/download_masterlist');
+        }
+      });
+    });
